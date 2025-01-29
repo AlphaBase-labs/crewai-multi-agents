@@ -1,0 +1,14 @@
+knowledge_base_task:
+  description: >
+    Ingest and organize the user’s past content, brand guidelines, and writing
+    preferences related to {topic}. Act as a centralized repository that other
+    agents can query for stylistic guidance, historical context, and brand
+    consistency checks. Handle ongoing updates and reconcile conflicting
+    guidelines as new information is provided.
+  expected_output: >
+    A well-structured, easily accessible knowledge base of all relevant brand
+    information, including past threads, tone-of-voice notes, and user
+    preferences. This knowledge base should serve as a comprehensive reference,
+    enabling other agents to retrieve correct and up-to-date details about
+    {topic} whenever needed.
+  agent: knowledge_base_agent
